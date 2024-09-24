@@ -1,0 +1,35 @@
+.product-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px; /* Voit säätää leveyttä tarpeen mukaan */
+    margin: 0 auto; /* Keskittää koko lomakkeen */
+  }
+  
+  .product-row, .quantity-row {
+    display: flex;
+    justify-content: space-between; /* Asettaa tekstin ja valikon/määrän eri puolille */
+    margin-bottom: 20px; /* Lisää tilaa rivien väliin */
+  }
+  
+  .quantity-row span {
+    margin: 0 10px;
+  }
+  
+  h2 {
+    text-align: center; /* Keskittää "Select Product" tekstin */
+  }
+  
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  select, button {
+    padding: 5px;
+  }
+  
+  button {
+    margin: 0 5px; 
+    
+  }
+  
