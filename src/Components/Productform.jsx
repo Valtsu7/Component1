@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ProductForm.css'; // Uusi CSS-tiedosto
+import './ProductForm.css'; 
 
 function ProductForm({ products, prices, onOrder, currentOrder }) {
   const [selectedProductIndex, setSelectedProductIndex] = useState(products.indexOf(currentOrder.product));
