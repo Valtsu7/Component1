@@ -47,7 +47,7 @@ function ProductForm({ products, prices, onOrder, currentOrder }) {
         </div>
       </div>
 
-      <button onClick={handleOrder}>Update Order</button>
+      <button onClick={handleOrder} className='button'>Update Order</button>
     </div>
   );
 }

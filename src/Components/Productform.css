@@ -1,7 +1,7 @@
 .product-form-container {
     display: flex;
     flex-direction: column;
-    width: 200px; /* Voit säätää leveyttä tarpeen mukaan */
+    width: 220px; /* Voit säätää leveyttä tarpeen mukaan */
     margin: 0 auto; /* Keskittää koko lomakkeen */
   }
   
@@ -32,4 +32,7 @@
     margin: 0 5px; 
     
   }
-  
+
+  .button {
+     background-color: rgb(172, 137, 204);
+  }
