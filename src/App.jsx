@@ -8,7 +8,7 @@ import OrderInfo from './Components/OrderInfo';
 import './App.css'
 
 function App() {
-  const products = ["Product 1", "Product 2", "Product 3"];
+  const products = ["Product 1 - 10 €", "Product 2 - 15 €", "Product 3 - 20 €"];
   const prices = [10, 15, 20];
 
   const [order, setOrder] = useState({
