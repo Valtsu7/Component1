@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fcfcfc; /* Taustaväri */
+  }
+  
+  img {
+    width: 10%; /* Säädä kuvakokoa tarpeen mukaan */
+    height: 10%; /* Säädä kuvakokoa tarpeen mukaan */
+    object-fit: contain; /* Säilyttää kuvan mittasuhteet ja estää venymistä */
+    margin-right: 10px; /* Etäisyys tekstistä */
+  }
+  
+  .header-title {
+    font-size: 24px;
+    color: #333; /* Tekstin väri */
+  }
+  
